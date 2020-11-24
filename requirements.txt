@@ -1,2 +1,2 @@
-import discord.py==3.8.6
-import datetime.py==3.8.6
+import discord.py==0.16.12
+import datetime.py==0.16.12
