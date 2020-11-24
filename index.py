@@ -1,5 +1,8 @@
 import discord, datetime
-token = "NzgwNDIxNzAxODc5NDYzOTQ2.X7u2WQ.q4Bhefsg2D-XutRtH_KF_RFg7wo"
+import os
+
+access_token = os.environ["BOT_TOKEN"]
+token = "access_token"
 client = discord.Client()
 
 @client.event
